@@ -9,6 +9,7 @@ body {
 }
 textarea {
   resize: none;
+  color: rgba(49, 115, 161, 1);
 }
 .container {
   float: left;
@@ -37,6 +38,11 @@ textarea {
   font-size: 1.3em;
   line-height: 35px;
 }
+.text {
+  color: rgba(49, 115, 161, 1);
+  font-style: italic;
+  font-size: 1.2em;
+}
 .form:active {
   border: 3px solid rgba(49, 115, 161, 1);
   color: rgba(49, 115, 161, 1);
@@ -44,30 +50,36 @@ textarea {
 .form:hover {
   border: 3px solid rgba(49, 115, 161, 1);
 }
-textarea:active:after {
-  border: 3px solid rgba(49, 115, 161, 1);
-  color: rgba(49, 115, 161, 1);
-}
 textarea:hover {
   border: 3px solid rgba(49, 115, 161, 1);
+  color: rgba(49, 115, 161, 1);
 }
 placeholder:active:after {
   border: 3px solid rgba(49, 115, 161, 1);
 }
-.drop {
+select {
   border-radius: 5px;
   border: 1px solid silver;
-  font-size: 1em;
+  font-size: .7em;
+  background-color: rgba(91, 163, 214, 1);
+  margin-left: 5px;
+  line-height: 35px;
+  width: 100%;
+  color: white;
+  height: 30px;
+}
+.drop {
+  width: 100%;
+  border: 0;
+}
+.drop:hover {
+  border: 0;
 }
 .fa-sort {
   float: right;
   color: white;
   margin-top: 10px;
   margin-right: 5px;
-}
-placeholder {
-  margin-left: 5px;
-  line-height: 35px;
 }
 .box {
   height: 150px;
