@@ -1,0 +1,81 @@
+body {
+  font-size: 62.5%;
+}
+.container {
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin-left: 20px;
+  display: block;
+}
+.tshirt {
+  height: 280px;
+  width: 100%;
+  border: 2px solid rgba(152, 197, 229, 1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 200px 200px;
+  background-position: 25px 20px;
+}
+.blue {
+  background-image: url(https://github.com/TIY-GVL-FEE-2015-May/assignments/blob/master/2.2-responsive-exercises/images/tshirts/1_front.png?raw=true);
+}
+.pink {
+  background-image: url(https://github.com/TIY-GVL-FEE-2015-May/assignments/blob/master/2.2-responsive-exercises/images/tshirts/2_front.png?raw=true);
+}
+.orange {
+  background-image: url(https://github.com/TIY-GVL-FEE-2015-May/assignments/blob/master/2.2-responsive-exercises/images/tshirts/3_front.png?raw=true);
+}
+.reverse {
+  margin-left: 228px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  border-left: 2px solid rgba(152, 197, 229, 1);
+  border-bottom: 2px solid rgba(152, 197, 229, 1);
+  color: rgba(152, 197, 229, 1);
+}
+.fa-reply {
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+/* .reverse:hover {
+
+} */
+.menuoptions {
+  height: 40px;
+  width: 48px;
+  border-left: 2px solid rgba(152, 197, 229, 1);
+  border-top: 2px solid rgba(152, 197, 229, 1);
+  float: left;
+  margin-top: 240px;
+  text-align: center;
+  color: rgba(152, 197, 229, 1);
+}
+.menuoptions:hover {
+  background-color: rgba(91, 163, 214, 1);
+  color: white;
+}
+.fa {
+  margin-top: 8px;
+}
+.exl {
+  color: rgba(152, 197, 229, 1);
+  font-size: 1.8em;
+  line-height: 38px;
+}
+.shuffle {
+  border-left: 0;
+}
+.cart {
+  width: 50px;
+}
+.blueshirt:active .blueshirt {
+  background-color: rgba(91, 163, 214, 1);
+  color: white;
+  background-image: url(https://github.com/TIY-GVL-FEE-2015-May/assignments/blob/master/2.2-responsive-exercises/images/tshirts/1_back.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 200px 200px;
+  background-position: 25px 20px;
+}
